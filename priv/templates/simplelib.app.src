@@ -1,0 +1,13 @@
+{application, {{libid}}
+, [
+  , {description, ""}
+  , {vsn, "1"}
+  , {modules, [
+              ]}
+  , {registered, []}
+  , {applications, [ kernel
+                   , stdlib
+                   ]}
+  , {env, []}
+  ]
+}.
