@@ -324,6 +324,7 @@ escriptize                           Generate escript archive
 
 create      template= [var=foo,...]  Create skel based on template and vars
 create-app  [appid=myapp]            Create simple app skel
+create-lib  [libid=mylib]            Create simple lib skel
 create-node [nodeid=mynode]          Create simple node skel
 list-templates                       List available templates
 
@@ -417,11 +418,11 @@ filter_flags(Config, [Item | Rest], Commands) ->
     end.
 
 command_names() ->
-    ["check-deps", "clean", "compile", "create", "create-app", "create-node",
-     "ct", "delete-deps", "doc", "eunit", "escriptize", "generate",
-     "generate-appups", "generate-upgrade", "get-deps", "help", "list-deps",
-     "list-templates", "qc", "update-deps", "overlay", "shell", "version",
-     "xref"].
+    ["check-deps", "clean", "compile", "create", "create-app", "create-lib",
+     "create-node", "ct", "delete-deps", "doc", "eunit", "escriptize",
+     "generate", "generate-appups", "generate-upgrade", "get-deps", "help",
+     "list-deps", "list-templates", "qc", "update-deps", "overlay", "shell",
+     "version", "xref"].
 
 unabbreviate_command_names([]) ->
     [];
