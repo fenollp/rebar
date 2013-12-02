@@ -1,6 +1,5 @@
 {application, {{libid}}
-, [
-  , {description, "An Erlang {{libid}} library"}
+, [ {description, "An Erlang {{libid}} library"}
   , {vsn, "1"}
   , {modules, [
               ]}
