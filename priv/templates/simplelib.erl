@@ -9,12 +9,12 @@
 
 %% API
 
-my_func () ->
+my_func() ->
     ok().
 
 %% Internals
 
-ok () ->
+ok() ->
     ok.
 
 %% End of Module.
